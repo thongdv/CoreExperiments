@@ -12,6 +12,10 @@ public class CheckPrimeOrNot {
 			return "not prime";
 		if (number == 2 && number == 3)
 			return "prime number";
+		
+		if (number % 2 == 0) {
+			return "not prime";
+        }
 
 		int sqrt = (int) Math.sqrt(number);
 
