@@ -3,7 +3,7 @@ public class SubSequenceChecker {
 	public static void main(String[] args) {
 		
 		String mainString = "Chemistry";
-		String subString = "mst133123123123";
+		String subString = "msy";
 		boolean isSubSequence = isSubsequence(mainString, subString);
 		System.out.println(isSubSequence);
 	}
